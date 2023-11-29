@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Luke Baughan @bUKaneer (Forked from: Ardalis.SharedKernel)",
+  "classifications": ["Web", "ASP.NET", "Clean Architecture"],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "identity": "WhiteLabel.CleanArchitecture.SharedKernel.Template",
+  "name": "WhiteLabel Clean Architecture Shared Kernel Template",
+  "shortName": "whitelabel-sharedkernel",
+  "sourceName": "Ardalis.SharedKernel",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            "**/.template.config",
+            "**/*.filelist",
+            "**/*.user",
+            "**/*.lock.json",
+            "**/.git/**",
+            "**/.vs/**",
+            "**/.vscode/**",
+            "**/.idea/**",
+            "**/.nuspec"
+          ]
+        }
+      ]
+    }
+  ]
+}
