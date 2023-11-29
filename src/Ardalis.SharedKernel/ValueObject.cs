@@ -1,4 +1,8 @@
-﻿namespace Ardalis.SharedKernel;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Ardalis.SharedKernel;
 
 /// <summary>
 /// NOTE: Use `readonly record struct` for most cases in C# 10+
